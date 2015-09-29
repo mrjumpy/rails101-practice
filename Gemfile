@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "mysql2"
+gem "mysql2", "~> 0.3.0"
 gem "devise"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -53,6 +53,6 @@ group :development do
 end
 
 group :production do
-  gem "mysql2"
+  gem "mysql2", "~> 0.3.0"
 end
 
